@@ -5,14 +5,12 @@
 using namespace std;
 
 int main() {
-    int num;
-    cin >> num;
-
-    if ( num != 1) {
-        cout << ( num -1 );
-    } else {
-        cout << 1;
+    int i;
+    for ( i = 1 ; i < 100 ; i ++) {
+        cout << i << endl;
     }
-
+    for ( i = 1 ; i < 100 ; ++ i ) {
+        cout << i << endl;
+    }
     return 0;
 }
